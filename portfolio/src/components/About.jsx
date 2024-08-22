@@ -5,14 +5,14 @@ function About() {
 	return (
 		<>
 			<HeaderText text={'About Me'} />
-			<p>
+			<p className='lg:w-1/2 lg:mx-auto lg:my-0'>
 				My name is Tomasz Gajda, i am a third year Applied Computer Science
 				student at the AGH University of Science and Technology in Krakow. I
 				have been learning Front-End technologies for a year and this time was
 				just enough for me to make sure that this is my place in the industry.
 			</p>
 
-			<p>
+			<p className='lg:w-1/2 lg:mx-auto lg:my-0'>
 				Membership in the science club developed my design skills, which quickly
 				turned into a new hobby. I am fluent in English (spoken and written) and
 				intermediate Spanish. Apart from designing and programming websites, my

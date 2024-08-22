@@ -2,14 +2,14 @@ import ItLogo from '../assets/ITB.png';
 
 function Banner() {
 	return (
-		<div className='relative bg-[#1D1D1D] text-white h-[500px] '>
+		<div className='relative bg-[#1D1D1D] text-white h-[500px] lg:h-[300px]'>
 			<div className='absolute w-full z-10 text-center  left-1/2 top-1/2  transform -translate-x-1/2 -translate-y-1/2'>
 				{/* banner header */}
 				<div className='w-52 mx-auto my-0  font-black text-4xl'>
 					<p>IT BERRIES</p>
 				</div>
 				{/* Banner text */}
-				<div className='text-justify text-xl p-7'>
+				<div className='text-justify text-xl p-7 lg:w-3/4 lg:mx-auto lg:my-0'>
 					<p>
 						Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
 						varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna
@@ -30,8 +30,8 @@ function Banner() {
 				</button>
 			</div>
 
-			<div className='absolute w-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-				<img className='mx-auto my-0' src={ItLogo} alt='' />
+			<div className='absolute w-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
+				<img className='mx-auto my-0 lg:hidden' src={ItLogo} alt='' />
 			</div>
 		</div>
 	);

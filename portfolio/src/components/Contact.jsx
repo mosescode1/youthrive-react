@@ -7,7 +7,7 @@ function Contact() {
 				<HeaderText text={'CONTACT'} />
 			</div>
 
-			<p className='text-2xl'>
+			<p className='text-2xl lg:w-1/2 lg:mx-auto lg:my-0'>
 				My name is Tomasz Gajda, I’m a third year Applied Computer Science
 				student at AGH University of Science and Technology in Cracow, Poland.
 			</p>

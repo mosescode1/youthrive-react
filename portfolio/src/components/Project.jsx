@@ -8,8 +8,8 @@ import Img6 from '../images/Project5.png';
 
 function Project() {
 	return (
-		<div className=''>
-			<div className='hidden w'>
+		<div className='grid lg:grid-cols-3'>
+			<div className='hidden lg:block'>
 				<img className='w-full' src={Img1} alt='Image 1' />
 			</div>
 
@@ -47,16 +47,16 @@ function Project() {
 			<div>
 				<img className='w-full' src={Img4} alt='Image 1' />
 			</div>
-			<div className='hidden'>
+			<div className='hidden lg:block'>
 				<img className='w-full' src={Img5} alt='Image 1' />
 			</div>
 
-			<div className='hidden'>
+			<div className='hidden lg:block'>
 				<img className='w-full' src={Img6} alt='Image 1' />
 			</div>
 
 			{/* TextMore  */}
-			<div className='bg-black text-white text-3xl p-5 text-center font-bold'>
+			<div className='bg-black text-white text-3xl p-5 text-center font-bold lg:col-span-3'>
 				<p>And many more come!</p>
 			</div>
 		</div>

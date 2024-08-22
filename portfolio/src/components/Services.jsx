@@ -4,7 +4,7 @@ import MainIng from '../images/maintenance.png';
 
 function Services() {
 	return (
-		<div className=''>
+		<div className='lg:grid grid-cols-2 lg:w-4/6 lg:mx-auto lg:my-0'>
 			<div className='relative p-8'>
 				<div>
 					<header className='text-2xl font-black'>DESIGN</header>
@@ -31,16 +31,18 @@ function Services() {
 				</div>
 			</div>
 
-			<div className='relative p-8'>
-				<div>
-					<header className='text-2xl font-black'>MAINTENANCE</header>
-					<p>
-						In case of any problems or the need for changes, I can introduce new
-						functionalities and solutions.
-					</p>
-				</div>
-				<div className='absolute top-0 left-0 '>
-					<img src={MainIng} alt='' />
+			<div className='lg:col-span-2 '>
+				<div className='relative p-8 lg:w-3/5 lg:mx-auto lg:my-0'>
+					<div>
+						<header className='text-2xl font-black'>MAINTENANCE</header>
+						<p>
+							In case of any problems or the need for changes, I can introduce
+							new functionalities and solutions.
+						</p>
+					</div>
+					<div className='absolute top-0 left-0 '>
+						<img src={MainIng} alt='' />
+					</div>
 				</div>
 			</div>
 		</div>

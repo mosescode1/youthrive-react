@@ -2,7 +2,7 @@ function Form() {
 	return (
 		<div className='bg-[#01010129] p-10'>
 			<form>
-				<div className='grid gap-9 my-10'>
+				<div className='grid gap-9 my-10  lg:w-1/2 lg:mx-auto lg:my-0'>
 					<input
 						className='p-5 bg-transparent border-l-4 border-b-4 border-black'
 						type='text'

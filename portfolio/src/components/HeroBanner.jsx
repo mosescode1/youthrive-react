@@ -9,7 +9,7 @@ function HeroBanner() {
 			<div className='overlay lg:relative '>
 				<div className='p-3 text-2xl text-white lg:text-black lg:relative lg:-top-1/2 lg:right-0'>
 					<h1 className='text-3xl font-semibold'>Hi, i am</h1>
-					<p className='text-5xl font-black'>
+					<p className='text-4xl font-black'>
 						<strong>Tomasz Gajda</strong>
 					</p>
 					<p className='text-lg '>Front-end Developer / UI Designer</p>

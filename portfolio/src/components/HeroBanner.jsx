@@ -5,25 +5,26 @@ import LinkedinIcon from '../assets/linkedin.png';
 
 function HeroBanner() {
 	return (
-		<div className='bg-black overflow-hidden relative'>
-			<div className='w-full h-[90vh] '>
-				<img
-					className='h-full w-full ml-24'
-					src={Image}
-					alt='background image'
-				/>
-			</div>
-			<div className='overlay '>
-				<div className='p-3 text-2xl text-white'>
+		<div className='bg-black overflow-hidden relative header'>
+			<div className='overlay lg:relative '>
+				<div className='p-3 text-2xl text-white lg:text-black lg:relative lg:-top-1/2 lg:right-0'>
 					<h1 className='text-3xl font-semibold'>Hi, i am</h1>
 					<p className='text-5xl font-black'>
 						<strong>Tomasz Gajda</strong>
 					</p>
 					<p className='text-lg '>Front-end Developer / UI Designer</p>
 				</div>
-				<div className='flex absolute flex-col right-5 bottom-5 gap-3'>
+				<div className='flex absolute lg:relative flex-col right-5 bottom-5 lg:-top-1/2 lg:-right-40 gap-3'>
 					<Socials github={GitIcon} email={EmailIcon} linkedin={LinkedinIcon} />
 				</div>
+			</div>
+
+			<div className='w-full h-[90vh] '>
+				<img
+					className='h-full w-full ml-24'
+					src={Image}
+					alt='background image'
+				/>
 			</div>
 		</div>
 	);

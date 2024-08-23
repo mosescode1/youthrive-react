@@ -2,6 +2,8 @@ import About from './About';
 import SeperatorSlack from './Seperator';
 import Services from './Services';
 import Skills from './Skills';
+import Learning from './Learning';
+import OtherSkills from './OtherSkills';
 
 function Main() {
 	return (
@@ -12,6 +14,8 @@ function Main() {
 			<Services />
 			<SeperatorSlack />
 			<Skills />
+			<Learning />
+			<OtherSkills />
 		</div>
 	);
 }

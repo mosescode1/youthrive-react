@@ -18,3 +18,17 @@
 	padding-left: 20px;
 
 }
+
+@media screen and (min-width: 1024px) {
+
+	/* Custom styles for smaller screens */
+	.header {
+		display: flex;
+	}
+
+	.overlay {
+		background: hsla(0, 3%, 72%, 0.706);
+		height: calc(100svh - 57px);
+		clip-path: polygon(0 0, 100% 0, 45% 173%, 0 100%)
+	}
+}
